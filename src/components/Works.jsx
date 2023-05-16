@@ -36,7 +36,8 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center
+               cursor-pointer"
             >
               <img
                 src={github}
@@ -48,7 +49,9 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <div className="text-white font-bold text-[24px] hover:text-secondary "
+                onClick={() => window.open(source_code_link, "_blank")}          
+          >{name}</div>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
 
@@ -73,7 +76,6 @@ const Works = () => {
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-        <h2 className={`${styles.sectionHeadText}`}>Need to update it</h2>
       </motion.div>
 
       <div className="w-full flex">

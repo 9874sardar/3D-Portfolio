@@ -22,6 +22,8 @@ import {
   itcs,
   shopify,
   carrent,
+  foodproj,
+  resturantApp,
   jobit,
   tripguide,
   threejs,
@@ -160,90 +162,102 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Learned a lot from him amazing classmate and a good friend, We do enjoy the time.",
+    name: "Gautam Chaudhary",
+    designation: "ClassMate",
+    company: "LPU MCA",
+    image: "https://media.licdn.com/dms/image/D4D03AQHfU9ga9FOkAg/profile-displayphoto-shrink_200_200/0/1665247650041?e=1689811200&v=beta&t=pC1yjT-BrkoQMAUaV39F2ihXNviC3s4KcKsU73sAcWg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
+      "I've never met a web developer who is as awesome as him' i dont know how he does what he does.",
+    name: "Mirza Shazeb Beg",
     designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "LPU Grad",
+    image: "https://media.licdn.com/dms/image/D4D03AQGhT1YtR1Agjg/profile-displayphoto-shrink_200_200/0/1677306705198?e=1689811200&v=beta&t=SO-qD9WSG6EzFvDOJWX2K456jBIbCYt9RyxpNiyEH6I",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "He optimized our website, our work efficiency increased by 50%. We can't thank him enough! to be with me when i need the most",
+    name: "Pankaj Kumar Mohanta",
+    designation: "CyberSecurity expert",
+    company: "LPU Grad",
+    image: "https://media.licdn.com/dms/image/D4D03AQHmwWzy9-9rOg/profile-displayphoto-shrink_200_200/0/1677305073013?e=1689811200&v=beta&t=yBKXvFILjzIfYMwDffcxGpZSUdRVK6xe_UKvJsuqDoQ",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Resturant App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users and admin screens ,they can search, buy, and look for the foods available in different resturant, providing a convenient and efficient solution for foods cravings.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
+      },
+      {
+        name: "Javascript",
+        color: "orange-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: resturantApp,
+    source_code_link: "https://github.com/9874sardar/Resturant--app",
   },
   {
-    name: "Job IT",
+    name: "Campus food Review",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that allows users to search for food available in different resturant inside campuse, depending on their food preferance , where they should go and have a good time",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "spring boot",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
+      {
+        name: "java",
+        color: "orange-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: foodproj,
+    source_code_link: "https://github.com/9874sardar/foodFrontend",
   },
   {
-    name: "Trip Guide",
+    name: "MERN ecommerce (upcoming)",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Ecommerce platform that allows users to buys products, and get recommendations for popular products with a sepreate admin auth and many more things.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Express",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
+      {
+        name: "TailWind",
+        color: "orange-text-gradient",
+      }
     ],
     image: tripguide,
     source_code_link: "https://github.com/",

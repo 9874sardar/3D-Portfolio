@@ -31,6 +31,8 @@ import wipro from "./company/wipro.png";
 import itcs from "./company/itcs.png";
 
 import carrent from "./carrent.png";
+import resturantApp from "./foodDeliveryApp.png";
+import foodproj from "./foodproj.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -65,6 +67,8 @@ export {
   wipro,
   itcs,
   carrent,
+  resturantApp,
+  foodproj,
   jobit,
   tripguide,
 };
