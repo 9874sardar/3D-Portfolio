@@ -25,6 +25,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  java,
+  cpp,
 } from "../assets";
 
 export const navLinks = [
@@ -48,23 +50,24 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React JS Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Software Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "MERN Developer",
     icon: creator,
   },
 ];
 
 const technologies = [
+
   {
     name: "HTML 5",
-    icon: html,
+      icon: html,
   },
   {
     name: "CSS 3",
@@ -103,46 +106,17 @@ const technologies = [
     icon: threejs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "java",
+    icon: java,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
+    name: "C++",
+    icon: cpp,
   },
 ];
 
 const experiences = [
-  // {
-  //   title: "React.js Developer",
-  //   company_name: "Starbucks",
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "March 2020 - April 2021",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+
   {
     title: "Web Developer (Intern)",
     company_name: "ITCS Live",
