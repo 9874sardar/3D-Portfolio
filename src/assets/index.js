@@ -23,12 +23,9 @@ import threejs from "./tech/threejs.svg";
 import cpp from "./tech/cpp.png";
 import java from "./tech/javalogo.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import wipro from "./company/wipro.png";
 import itcs from "./company/itcs.png";
+import cg from "./company/CG.png"
 
 import carrent from "./carrent.png";
 import resturantApp from "./foodDeliveryApp.png";
@@ -60,10 +57,7 @@ export {
   threejs,
   java,
   cpp,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  cg,
   wipro,
   itcs,
   carrent,
