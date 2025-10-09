@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/needed",
+      "destination": "/needed"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
