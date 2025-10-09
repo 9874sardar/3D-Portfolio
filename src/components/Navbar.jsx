@@ -48,6 +48,9 @@ const Navbar = () => {
             <span className='sm:block hidden'> Tariq Aziz</span>
           </p>
         </Link>
+        <Link to='/needed' className="text-white text-[18px] font-bold">
+          Needed
+        </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (

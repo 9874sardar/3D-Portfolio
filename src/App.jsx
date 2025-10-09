@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import Needed from "./components/Needed";
 
 const App = () => {
   return (
@@ -23,7 +24,7 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>} />
-      <Route path="needed" element={<div>Needed</div>} />
+      <Route path="needed" element={<Needed/>} />
     </Routes>
     </BrowserRouter>
   );
